@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./front:/usr/share/nginx/html/front
+    ports:
+      - 80:80
+  node:
+    image: node:14.20
+    volumes:
+      - ./back:/home/back
