@@ -10,4 +10,8 @@ describe('test my function' ,()=>{
     const l = myFunction('ali' , 'mirkhalili')
     expect(l).toBe('ali mirkhalili');
   })
+  it('should be throw error' , ()=>{
+    const output = ()=> myFunction(1 ,'') ;
+    expect(output).toThrow(Error)
+  })
 })
