@@ -21,7 +21,3 @@ export function perPrimitive(object , action ){
 		return output ;
 	}
 }
-
-perPrimitive( , (key ,value)=>{
-	return prompt('please inter '+key , value)
-})

@@ -1,6 +1,10 @@
-import { input } from "./input"
+import { perPrimitive } from "./input"
 
 describe('test input function' ,()=>{
+
+	it('should be true' , ()=>{
+		expect(true).toBe(true);
+	})
 
 	let inputs = {
 		family : 'mirkhalili' ,
@@ -18,9 +22,5 @@ describe('test input function' ,()=>{
 			}
 		]
 	}
-
-  it('should be sum number' , ()=>{
-	
-  })
   
 })
