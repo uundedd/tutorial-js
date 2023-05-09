@@ -6,6 +6,8 @@ export function myFunction (a , b){
   output = a+' '+b
  } else if(typeof a === 'number' && typeof b === 'number') {
   output = a+b ;
+ } else {
+   throw new Error('')
  }
 
  return output ;
