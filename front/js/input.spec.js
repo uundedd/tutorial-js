@@ -21,6 +21,8 @@ describe('test input function' ,()=>{
 
 	it('should be call per key' , ()=>{
 		let sum  = 0  ; 
+
+
 		perPrimitive(inputs , (key , value)=>{
 			if(key === 'age'){
 				sum+= value ;
